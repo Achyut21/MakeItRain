@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void showLog(View view) {
-        //Toast.makeText(MainActivity.this,R.string.app_info,Toast.LENGTH_LONG).show();
-        Snackbar.make(txtViewMoney,R.string.app_info,Snackbar.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this,R.string.app_info,Toast.LENGTH_LONG).show();
+        //Snackbar.make(txtViewMoney,R.string.app_info,Snackbar.LENGTH_LONG).show();
     }
 }
